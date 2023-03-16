@@ -1,0 +1,13 @@
+@import './reset';
+@import './repositories-list';
+@import './form';
+@import './status';
+@import './loader';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}

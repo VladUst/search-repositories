@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindRepos</title>
+</head>
+<body>
+    <form id="search-form">
+        <label for="search">Название:</label>
+        <input placeholder="Имя репозитория" type="text" name="search-text" id="search-text">  
+        <span id="search-error">fdsaf</span>
+        <button id="search-btn" type="submit">Поиск</button>
+    </form>
+    <div id="status"></div>
+    <div id="loader"><div></div><div></div><div></div></div>
+    <ul id="repositories-list">
+    </ul>
+</body>
+</html>
